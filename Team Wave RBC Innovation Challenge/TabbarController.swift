@@ -38,27 +38,5 @@ class TabbarController: UITabBarController, UITabBarControllerDelegate {
         
         return true
     }
-    
-    //    -(BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController {
-    //
-    //    if (tabBarController.selectedViewController == nil || tabBarController.selectedViewController == viewController) {
-    //    return NO;
-    //    }
-    //
-    //    UIView *fromView = tabBarController.selectedViewController.view;
-    //    UIView *toView = viewController.view;
-    //
-    //    [tabBarController.selectedViewController.view.superview addSubview:viewController.view];
-    //
-    //    [UIView transitionFromView:fromView toView:toView duration:0.2 options:UIViewAnimationOptionTransitionCrossDissolve completion:^(BOOL finished) {
-    //
-    //    
-    //    }];
-    //    
-    //    return true;
-    //    
-    //    }
-    
-    
-    
+
 }
